@@ -1,0 +1,45 @@
+
+.container {
+    text-align: center;
+}
+
+.board {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 22vmin);
+    grid-template-rows: repeat(3, 22vmin);
+    gap: 5px;
+    place-content: center;
+    width: 50%;
+    margin: 40px auto;
+}
+
+.cell {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c8dae4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.x{
+    color: #f50057;
+}
+.o{
+    color: #536dfe;
+}
+
+.btn{
+    
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition-duration: 0.3s;
+}
